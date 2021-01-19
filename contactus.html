@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="index.html"><img src="images/logo.png" alt="Fast Web" height="100px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <!-- <button type="button" class="btn rounded-pill btn-outline-success btn-lg hellobtn">Say Hello</button>
+
+                <button type="button" class="btn rounded-pill btn-outline-success btn-lg hellobtn">Contact Us</button> -->
+
+
+
+            </form>
+        </div>
+
+
+    </nav>
+
+    <section class="container mt-5">
+        <!--Contact heading-->
+        <div class="row">
+            <!--Grid column-->
+            <div class="col-sm-12 mb-4 col-md-7">
+                <!--Form with header-->
+                <div class="card">
+                    <div class="card-header p-0">
+                        <div class=" text-center py-2">
+                            <h3><i class="fa fa-envelope"></i> Write to us:</h3>
+                            <p class="m-0">We’ll Love to talk to you</p>
+                        </div>
+                    </div>
+                    <div class="card-body p-3">
+                        <form onsubmit="sendMail()">
+                            <div class="form-group">
+                                <label> Your name </label>
+                                <div class="input-group">
+                                    <input value="" type="text" name="data[name]" class="form-control" id="inlineFormInputGroupUsername1" placeholder="Your name" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Your email</label>
+                                <div class="input-group mb-2 mb-sm-0">
+                                    <input type="email" value="" name="data[email]" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Subject</label>
+                                <div class="input-group mb-2 mb-sm-0">
+                                    <input type="text" name="data[subject]" class="form-control" id="inlineFormInputGroupUsername3" placeholder="Subject" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Message</label>
+                                <div class="input-group mb-2 mb-sm-0">
+                                    <input type="text" id="msg" class="form-control" name="msg" required>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <button type="button" onclick="sendMail()" class="btn rounded-pill btn-outline-success btn-lg hellobtn">Submit</button>
+
+
+
+                            </div>
+                        </form>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-sm-12 col-md-5">
+                <!--Google map-->
+                <div class="mb-">
+                    <img src="images/illustration@2x-85cce263ddf60035c6702cc57dd1fc2a-4d4c8.jpg" width="100%" height="450" />
+                </div>
+                <!--Buttons-->
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <a class="px-3 py-2 rounded text-white mb-2 d-inline-block"><i class="fa fa-map-marker"></i></a>
+                        <p> We Dont have a Address yet..... </p>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="px-3 py-2 rounded text-white mb-2 d-inline-block"><i class="fa fa-phone"></i></a>
+
+                        <p>+91- 7814261211</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="px-3 py-2 rounded text-white mb-2 d-inline-block"><i class="fa fa-envelope"></i></a>
+
+                        <p> imashishjaiswal99@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <!--Grid column-->
+        </div>
+    </section>
+
+
+    <section id="footer">
+        <div class="container">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <img class="footerimg" src="images/logo.png">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 text-center">
+                    <h5>Quick links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+
+
+                        <li><a href="contactus.html"><i class="fa fa-angle-double-right"></i>Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+
+
+
+
+                        <li class="list-inline-item"><a href="https://api.whatsapp.com/send?phone=+919115121955"><i
+                    class="fa fa-whatsapp"></i></a></li>
+
+
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/ashish-jaiswal-ba8a04148/"><i
+                    class="fa fa-linkedin"></i></a></li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/Imashish817"> <i class="fa fa-github"></i></a>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+
+                    <p class="h6">© All right are Reversed to<a class="text-green ml-2" href="https://www.Deoriahealthcarecenter.com" target="_blank">FastWeb
+                    </a></p>
+                    <p>This Website is developed by Us </p>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        function sendMail() {
+            var name = document.getElementById('inlineFormInputGroupUsername1').value
+            var email = document.getElementById('inlineFormInputGroupUsername2').value
+            var subject = document.getElementById('inlineFormInputGroupUsername3').value
+            var msg = document.getElementById('msg').value
+            var detail = "name: " + name + " email id: " + email + " Message " + msg;
+            // var link = "mailto:imashishjaiswal99@gmail.com" +
+            //     "?cc=imashishjaiswal99@gmail.com" +
+            //     "&subject=" + escape("This is my subject") +
+            //     "&body=" + escape(detail);
+
+            // window.location.href = link;
+
+            Email.send({
+                Host: "smtp.mailtrap.io ",
+                Username: "25fb57b5f5c978",
+                Password: "25857ba1a39596",
+                To: 'cu.16bcs1338@gmail.com',
+                From: "cu.16bcs1338@gmail.com",
+                Subject: subject,
+                Body: detail
+            }).then(
+                message => alert("Yeeee!!! We Have Recieved Your Message")
+            );
+        }
+    </script>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
